@@ -154,7 +154,7 @@ gulp.task('copy-direct-min', () => {
 
 gulp.task(
   'build',
-  gulp.parallel('sass-min', 'js-min', 'html-min', 'copy-direct-min')
+  gulp.parallel('sass-min', 'js-min', 'html-min', 'copy-direct-min', 'svg-min')
 );
 
 gulp.task('serve', () => {
